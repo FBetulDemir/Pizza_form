@@ -3,20 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Form</title>
 </head>
 <body>
-    <div>
-        <form action="">
-            <div>
-                <input type="text">
-                <input type="email">
-                <select name="Pizza" id="">
-
-                </select>
-            </div>
-            <input type="checkbox">
-        </form>
+    <div class="wrapper">
+        <div>
+            <h2>Favorite pizza topping survey</h2>
+            <p></p>
+        </div>
+        <div class="form-section">
+            <form action="">
+                <div class="input-area">
+                    <h4>Please enter your full name.</h4>
+                    <input type="text" placeholder="Enter full name">
+                    <h4>Please enter your email.</h4>
+                    <input type="email" placeholder="Enter email">
+                    <h4>Please select your favorite pizza topping.</h4>
+                    <label for="cars">Choose a pizza:</label>
+                    <select name="pizza" id="pizza">
+                        <option value="Margherita">Margherita</option>
+                        <option value="Capricciosa">Capricciosa</option>
+                        <option value="Sicilian pizza">Sicilian pizza</option>
+                        <option value="Neapolitan pizza">Neapolitan pizza</option>
+                        <option value="Funghi">Funghi</option>
+                        <option value="Quattro Formaggi">Quattro Formaggi</option>
+                        <option value="Pizza Romana">Pizza Romana</option>
+                    </select>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <label for="subscribe">Click the box if you would like receive more surveys like this!</label>
+                </div>
+            </form>
+        </div>
         <div>
             <button><a href="#">Submit</a></button>
         </div>
