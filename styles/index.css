@@ -15,14 +15,21 @@ body{
     background-position: center;
     height: 150vh;
     color: #f2eded;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
+}
+.info{
+    margin: 5% 4%;
+    background-color: #ce3b0e;
+    padding: 5%;
 }
 
 .form-section{
@@ -32,14 +39,57 @@ body{
     min-height: 100px;
     padding: 5%;
     width: 100%;
-    backdrop-filter: blur();
+    backdrop-filter: blur(8px);
 }
 
 .input-area h4{
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .input-area input{
+    border: none;
+    background: transparent;
     border-bottom: 2px solid #f2eded;
-    width: 50%;
+    width: 60%;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: blanchedalmond;
+    letter-spacing: 1.5;
+}
+.pizza{
+    width: 40%;
+    cursor: pointer;
+}
+.checkbox{
+    margin-top: 10%;
+}
+.checkbox input{
+    cursor: pointer;
+}
+
+.submit-btn{
+    padding: 15% 25%;
+    background-color: #3c454f;
+    border-radius: 5%;
+    margin-top: 20%;
+    margin-bottom: 50%;
+    color: #f2eded;
+    background-color: #f4511e;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.submit-btn a{
+    text-decoration: none;
+    color: rgb(238, 240, 234);
+}
+.submit-btn a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 5px;
 }
