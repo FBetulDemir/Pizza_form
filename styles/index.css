@@ -68,28 +68,24 @@ body{
 .checkbox input{
     cursor: pointer;
 }
-
 .submit-btn{
-    padding: 15% 25%;
-    background-color: #3c454f;
+    display: flex;
+    justify-content: center;
+}
+.submit-btn button{
+    padding: 3% 5%;
     border-radius: 5%;
-    margin-top: 20%;
-    margin-bottom: 50%;
+    margin: 7% 0%;
     color: #f2eded;
     background-color: #f4511e;
     border: none;
-    text-align: center;
-    font-size: 18px;
-    width: 150px;
     text-shadow: 2px 2px 3px #000000;
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 16px;
 }
-
-.submit-btn a{
-    text-decoration: none;
-    color: rgb(238, 240, 234);
-}
-.submit-btn a:hover{
+.submit-btn button:hover{
     cursor: pointer;
-    text-decoration: underline;
-    margin: 5px;
+    background-color: #f7a389;
+    font-size: 20px;
 }
